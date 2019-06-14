@@ -1,8 +1,311 @@
-
 /* UREĐAJI ISPOD 1200px */
 
-@media screen and (max-width: 1200px) {
-    body {
-      background-color: green;
-    }
+@media screen and (max-width: 1600px) {
+  #black {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
   }
+
+  #home-first-page {
+    background-image: url(../assets/images/simon-rae-732820-unsplash.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+  }
+
+  #logo {
+    float: left;
+    padding-left: 5%;
+  }
+
+  #home-first-page #company-name {
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+    font-size: 22px;
+    padding-left: 1%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+  }
+
+  .open {
+    display: none !important;
+  }
+
+  #navbar {
+    position: relative;
+    display: block;
+    padding: 25px;
+    z-index: 2;
+    width: 100%;
+    height: 12.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid black;
+    font-family: 'Montserrat';
+  }
+
+  #navbar i {
+    display: none;
+  }
+
+  #navbar ul#menu li {
+    display: inline;
+  }
+
+  #navbar ul li a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin: 0 1%;
+  }
+
+  #menu li:last-child {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    left: 82%;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+
+  }
+
+  #navbar i {
+    display: none;
+  }
+
+
+  #navbar input[type="text"] {
+    background: none;
+    padding: 12.5%;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    float: none;
+    position: static;
+    margin: 0;
+    border: none;
+  }
+
+  #contact-form {
+    width: 35%;
+    height: auto;
+    float: left;
+    background-color: white;
+    padding: 4% 5% 4% 5%;
+    margin: 6% 0 0 5%;
+    color: #C25A01;
+    font-family: 'Montserrat';
+
+  }
+
+  #contact-form p {
+    font-family: 'Segoe UI';
+    margin-top: 2%;
+    color: #707070;
+  }
+
+  #contact-form input {
+    margin-top: 15%;
+    padding: 0 0 5% 0;
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid #C25A01;
+  }
+
+  #contact-form span {
+    color: #707070;
+    font-size: 10px;
+    font-family: 'Montserrat';
+    text-align: right;
+    padding-left: 0;
+  }
+
+  #free-app {
+    padding: 4% 2%;
+    margin: 8% 0 0 0;
+    background-color: #C25A01;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-style: none;
+    color: white;
+    font-family: 'Montserrat';
+
+  }
+
+  #main-content {
+    padding: 0 5% 0 5%;
+    width: 60%;
+    color: white;
+    text-align: left;
+    margin: 6% 0 5% 0;
+    float: right;
+
+  }
+
+  #main-content::after {
+    display: block;
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #main-content h2,
+  #main-content p {
+    font-family: Staatliches;
+    text-transform: uppercase;
+  }
+
+  #main-content h2 {
+    font-size: 32px;
+    margin-bottom: 2%;
+  }
+
+  #main-content p {
+    font-size: 22px;
+  }
+
+  #main-content span {
+    font-size: 20px;
+  }
+
+  #main-content ul {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #main-content li {
+    margin-bottom: 3%;
+  }
+
+  #home-first-page #free-demo {
+    display: none !important;
+    margin: 7% 0 5% 5%;
+    width: 90%;
+    height: 50px;
+    background-color: #C25A01;
+    border-style: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: block;
+
+  }
+
+  #home-first-page #credit-card-info {
+    font-size: 18px;
+    display: none;
+  }
+
+}
+
+#more-info {
+  width: 100%;
+  margin: 0 0 0 5%;
+}
+
+#right {
+  float: left;
+  width: 25%;
+}
+
+#left {
+  float: left;
+  width: 30%;
+}
+
+#right img {
+  float: right;
+}
+
+#right span {
+  float: right;
+
+  text-transform: uppercase;
+
+  font-size: 22px;
+  padding-left: 1%;
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat';
+}
+
+#left img {
+  float: left;
+  margin: -12% 0 0 0;
+  padding: 0 0 0 10%;
+  width: auto;
+}
+
+#left span {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+#about-sighter{
+  width: 100%;
+  text-align: left;
+  margin: 5% 0 0 0;
+  padding: 0 10% 0 10%;
+}
+
+#left-sighter{
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+#right-sighter{
+  width: 65%;
+  float: left;
+}
+#about-sighter #title{
+  color: #222222;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size:14px;
+}
+#about-sighter h2{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+  font-family: 'Staatliches';
+  font-size: 40px;
+}
+
+#about-sighter h2::after{
+  display: block;
+  content:'';
+  height: 5px;
+  width: 25%;
+  background-color: #C25A01;
+margin-top: 2%;
+  margin-right: auto;
+}
+
+#about-sighter span{
+  display: inline-block;
+  margin-top: 2%;
+  font-family: 'Montserrat';
+}
+
+#about-sighter #bold{
+  font-weight: bold;
+  margin-top: 5.5%;
+}
+
+
+#about-sighter span:last-child{
+  margin-bottom: 5.2%;
+}

@@ -1,7 +1,270 @@
-/* UREĐAJI ISPOD 600px */
+/* UREĐAJI ISPOD 992px */
 
-@media only screen and (max-width: 600px){
-    body{
-        background-color: blue;
+@media screen and (max-width: 992px) {
+
+  /* UREĐAJI ISPOD 768px */
+  body {
+   overflow: visible;
+  }
+
+  #black {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+  }
+
+  #home-first-page {
+    background-image: url(../assets/images/simon-rae-732820-unsplash.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+  }
+
+  #logo {
+    float: left;
+    padding: 7% 0 0 5%;
+    
+  
+  }
+
+  #home-first-page #company-name {
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+    font-size: 22px;
+    padding-top: 7.5%;
+    padding-left: 1%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+  }
+  #navbar {
+    text-align: left;
+    background: none;
+    
+  }
+
+  .black {
+    background: rgba(0, 0, 0, .9) !important;
+  }
+  #menu {
+    display: none;
+    padding: 10%;
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    top: 12.5%;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .9);
+  }
+
+  .open {
+    display: block !important;
+  }
+
+  #nav {
+    margin-top: 100px;
+    padding: 50px 0px;
+    padding-bottom: 0;
+  }
+
+  #baropen {
+    font-size: 2.5em;
+  }
+
+  nav ul li {
+    margin-bottom: 25px;
+  }
+
+  nav ul li a {
+    padding: 10px;
+
+  }
+
+  #navbar input[type="text"] {
+    background: none;
+    padding: 20px;
+    color: #000;
+    height: 25px;
+    -webkit-box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.8);
+    border-style: none;
+    width: 50%;
+  }
+
+  #navbar p {
+    font-size: 25px;
+    text-transform: uppercase;
+    float: left;
+    color: white;
+    padding-top: 0.7%;
+    padding-left: 1%;
+    font-family: Montserrat;
+  }
+
+  #navbar i {
+    float: right;
+    color: white;
+    /* padding-top: 3%; */
+    position: relative;
+    top: 8px;
+    font-size: 25px;
+    display: block;
+  }
+
+  #navbar li {
+    /* list-style-type: none; */
+    display: block !important;
+  }
+
+#menu li:last-child {
+    background-color: transparent;
+    position: static;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* right: 20px; */
+    /* left: 82%; */
+    /* right: 0; */
+    /* background: rgba(0, 0,0 ,0.5); */
+}
+
+  #navbar a {
+    font-family: 'Montserrat';
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    /* z-index: 999999; */
+    /* position: absolute; */
+  }
+  
+  #contact-form{
+    display: none !important;
+  }
+
+  #more-info{
+    display: none !important;
+
+  }
+
+  #main-content {
+    padding: 0 5% 0 5%;
+    width: 100%;
+    color: white;
+    text-align: left;
+    margin-bottom: 5%;
+  }
+
+
+  #main-content h2,
+  #main-content p {
+    font-family: Staatliches;
+    text-transform: uppercase;
+  }
+
+  #main-content h2 {
+    font-size: 32px;
+    margin-bottom: 2%;
+  }
+
+  #main-content p {
+    font-size: 22px;
+  }
+
+  #main-content span {
+    font-size: 20px;
+  }
+
+  #main-content ul {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #main-content li {
+    margin-bottom: 3%;
+  }
+
+  #main-content::after{
+    display: none !important;
+}
+
+  #home-first-page #free-demo {
+    margin: 7% 0 5% 5%;
+    width: 90%;
+    height: 50px;
+    background-color: #C25A01;
+    border-style: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display:block !important; 
+    visibility: visible;
+
+  }
+
+  #home-first-page #credit-card-info {
+    font-size: 18px;
+    display: block !important; 
+    }
+
+    #about-sighter{
+      width: 100%;
+      text-align: left;
+      margin: 7% 0 0 0;
+      padding: 0 10% 0 10%;
+    }
+
+    #left-sighter{
+      width: 100%;
+      float: left;
+      margin-right: 5%;
+    }
+    
+    #right-sighter{
+      width: 100%;
+      float: left;
+    }
+    #about-sighter #title{
+      color: #222222;
+      text-transform: uppercase;
+      font-family: 'Montserrat';
+      font-size:14px;
+    }
+    #about-sighter h2{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-transform: uppercase;
+      font-family: 'Staatliches';
+  
+    }
+
+    #about-sighter h2::after{
+      display: block;
+      content:'';
+      height: 5px;
+      width: 25%;
+      background-color: #C25A01;
+    margin-top: 2%;
+      margin-right: auto;
+    }
+
+    #about-sighter span{
+      display: inline-block;
+      margin-top: 2%;
+      font-family: 'Montserrat';
+    }
+
+    #about-sighter #bold{
+      font-weight: bold;
+    }
+
+   
+    #about-sighter span:last-child{
+      margin-bottom: 5%;
     }
 }
