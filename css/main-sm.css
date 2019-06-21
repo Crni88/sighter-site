@@ -26,8 +26,8 @@
   #logo {
     float: left;
     padding: 7% 0 0 5%;
-    
-  
+
+
   }
 
   #home-first-page #company-name {
@@ -41,15 +41,17 @@
     color: white;
     font-family: 'Montserrat';
   }
+
   #navbar {
     text-align: left;
     background: none;
-    
+
   }
 
   .black {
     background: rgba(0, 0, 0, .9) !important;
   }
+
   #menu {
     display: none;
     padding: 10%;
@@ -123,7 +125,7 @@
     display: block !important;
   }
 
-#menu li:last-child {
+  #menu li:last-child {
     position: static;
     /* top: 0; */
     /* bottom: 0; */
@@ -131,7 +133,7 @@
     /* left: 82%; */
     /* right: 0; */
     /* background: rgba(0, 0,0 ,0.5); */
-}
+  }
 
   #navbar a {
     font-family: 'Montserrat';
@@ -141,12 +143,12 @@
     /* z-index: 999999; */
     /* position: absolute; */
   }
-  
-  #contact-form{
+
+  #contact-form {
     display: none !important;
   }
 
-  #more-info{
+  #more-info {
     display: none !important;
 
   }
@@ -187,9 +189,9 @@
     margin-bottom: 3%;
   }
 
-  #main-content::after{
+  #main-content::after {
     display: none !important;
-}
+  }
 
   #home-first-page #free-demo {
     margin: 7% 0 5% 5%;
@@ -201,57 +203,262 @@
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    display:block !important; 
+    display: block !important;
     visibility: visible;
 
   }
 
   #home-first-page #credit-card-info {
     font-size: 18px;
-    display: block !important; 
-    }
-    #about-sighter{
-      width: 100%;
-      text-align: left;
-      margin: 7% 0 0 0;
-      padding: 0 10% 0 10%;
-    }
-    #about-sighter #title{
-      color: #222222;
-      text-transform: uppercase;
-      font-family: 'Montserrat';
-      font-size:14px;
-    }
-    #about-sighter h2{
-      margin-top: 5%;
-      margin-bottom: 5%;
-      text-transform: uppercase;
-      font-family: 'Staatliches';
-  
-    }
+    display: block !important;
+  }
 
-    #about-sighter h2::after{
-      display: block;
-      content:'';
-      height: 5px;
-      width: 25%;
-      background-color: #C25A01;
+
+  #about-sighter {
+    width: 100%;
+    text-align: left;
+    margin: 5% 0 0 0;
+    padding: 0 10% 0 10%;
+  }
+
+  .left-sighter {
+    width: 100%;
+    float: left;
+    margin-right: 5%;
+  }
+
+  .right-sighter {
+    width: 100%;
+    float: left;
+    line-height: 25px;
+  }
+
+  .title-sighter {
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+  }
+
+  .advnaced {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-family: 'Staatliches';
+    font-size: 40px;
+  }
+
+  .advnaced::after {
+    display: block;
+    content: '';
+    height: 5px;
+    width: 25%;
+    background-color: #C25A01;
     margin-top: 2%;
-      margin-right: auto;
-    }
+    margin-right: auto;
+  }
 
-    #about-sighter span{
-      display: inline-block;
-      margin-top: 2%;
-      font-family: 'Montserrat';
-    }
+  .spans {
+    display: inline-block;
+    margin-top: 2%;
+    font-family: 'Montserrat';
+  }
 
-    #about-sighter #bold{
-      font-weight: bold;
-    }
+  .bold {
+    font-weight: bold;
+    margin-top: 5.5%;
+  }
 
-   
-    #about-sighter span:last-child{
-      margin-bottom: 5%;
-    }
+  .spans:last-child {
+    margin-bottom: 5.2%;
+  }
+
+  #latest-news {
+    width: 100%;
+    text-align: left;
+    margin: 7% 0 0 0;
+    padding: 0 10% 0 10%;
+  }
+
+  #latest-news p {
+    text-align: center;
+    font-family: 'Staatliches';
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10% 0 5% 0;
+  }
+  #last-panel {
+    width: 100%;
+    background-color: #000;
+    padding: 5% 5%;
+    color: white;
+  }
+
+  .lijevi-div{
+    width:100%;
+    float: left;
+    text-align: left;
+  }
+
+  #contact {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+    margin: 2% 0 0 0;
+  }
+
+  .contact-sighter-left {
+    width: 100%;
+    text-transform: uppercase;
+    float: left;
+  }
+
+  .contact-sighter {
+    font-family: 'Montserrat';
+    font-size: 12px;
+  }
+
+  .contact {
+    font-family: 'Staatliches';
+    font-size: 30px;
+    font-weight: normal;
+    margin: 2% 0 0 0;
+  }
+
+  .contact::after {
+    display: block;
+    content: '';
+    height: 5px;
+    width: 15%;
+    background-color: #C25A01;
+    margin-top: 2%;
+    margin-right: auto;
+  }
+
+  .contact-sighter-right {
+    width: 100%;
+    float: left;
+    margin: 5% 0 5% 0;
+  text-transform: initial;
+  line-height: 25px;
+  }
+
+  .info{
+    width: 100%;
+    float: left;
+  }
+
+  #last-span {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    line-height: 25px;
+  }
+
+  #icons {
+    width: 100%;
+    text-align: left;
+    margin: 15% 0 10% 0;
+    padding: 0 5% 0 5%;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+  }
+
+  .name {
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  #icons i {
+    color: #C25A01;
+    font-size: 17px;
+    margin: 2% 3% 0 0;
+  }
+
+  #forma {
+    width: 100%;
+    text-align: left;
+    padding: 0 5% 0 5%;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: normal;
+  }
+
+  #forma input {
+    background-color: #000;
+    border-style: none;
+    border: 0.5px solid white;
+    padding: 2% 5%;
+    margin: 4% 0 4% 0;
+    width: 100%;
+  }
+
+  #forma:last-child {
+
+    padding: 10% 10%;
+  }
+
+  #forma button {
+    width: 100%;
+    margin: 2% 0 0 0;
+    padding: 3% 3%;
+    background-color: #151515;
+    border: 5px solid #C25A01;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  #forma button i {
+    float: right;
+    margin: 0 2% 0 0;
+    font-size: 17px;
+  }
+
+  #icons2 {
+    width: 100%;
+    margin: 5% 0 5% 0;
+    text-align: left;
+    padding: 0 5% 0 5%;
+  }
+
+  #icons2 ul li {
+    display: inline;
+    margin: 0 4% 0 0;
+  }
+
+  #proba {
+    display: block;
+    width: 100%;
+    margin: 2% 0;
+  }
+
+  #proba span {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  #proba i {
+    color: #C25A01;
+    font-size: 15px;
+    margin-right: 2%;
+  }
+
+  #footer {
+    margin-top:5%;
+
+    width: 100%;
+    text-align: right;
+    padding: 3% 5% 0 5%;
+  }
+
+  #footer #company-name3 {
+    padding: 0 0 0 0;
+    font-size: 25px;
+    width: 90%;
+    float: left;
+  }
 }

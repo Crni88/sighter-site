@@ -1,6 +1,7 @@
 /* UREĐAJI ISPOD 1200px */
 
 @media screen and (max-width: 1600px) {
+  
   #black {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
@@ -15,6 +16,7 @@
     width: 100%;
     height: 100vh;
     color: white;
+    margin-bottom: 15%;
   }
 
   #logo {
@@ -22,11 +24,11 @@
     padding-left: 5%;
   }
 
-  #home-first-page #company-name {
+  #home-first-page .company-name {
     text-align: left;
     text-transform: uppercase;
     float: left;
-    font-size: 22px;
+    font-size: 21px;
     padding-left: 1%;
     text-decoration: none;
     color: white;
@@ -145,7 +147,7 @@
     width: 60%;
     color: white;
     text-align: left;
-    margin: 6% 0 5% 0;
+    margin: 6% 0 2% 0;
     float: right;
 
   }
@@ -208,104 +210,259 @@
     display: none;
   }
 
-}
 
-#more-info {
-  width: 100%;
-  margin: 0 0 0 5%;
-}
 
-#right {
-  float: left;
-  width: 25%;
-}
+  #more-info {
+    width: 50%;
+    float: right;
+    margin: 0 5% 0 5%;
+  }
 
-#left {
-  float: left;
-  width: 30%;
-}
 
-#right img {
-  float: right;
-}
+  .nivea {
+    float: left;
+    width: 50%;
+  }
 
-#right span {
-  float: right;
+  #left {
+    padding-left: 5%;
+    padding-top: 0.5%;
 
-  text-transform: uppercase;
+  }
 
-  font-size: 22px;
-  padding-left: 1%;
-  text-decoration: none;
-  color: white;
+  #left p {
+    text-align: left;
+    font-size: 17px;
+    padding-top: 1.5%;
+  }
+
+  #left i {
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin-right: 5%;
+  }
+
+  #right img {
+    float: right;
+    margin-left: 2%;
+  }
+
+  #right a {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding-top: 0.7%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+  }
+
+
+  #about-sighter {
+    width: 100%;
+    text-align: left;
+    margin: 5% 0 0 0;
+    padding: 0 10% 0 10%;
+  }
+
+  .left-sighter {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+  }
+
+  .right-sighter {
+    width: 65%;
+    float: left;
+    line-height: 25px;
+  }
+
+  .title-sighter {
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+  }
+
+  .advnaced {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-family: 'Staatliches';
+    font-size: 40px;
+  }
+
+  .advnaced::after {
+    display: block;
+    content: '';
+    height: 5px;
+    width: 25%;
+    background-color: #C25A01;
+    margin-top: 2%;
+    margin-right: auto;
+  }
+
+  .spans {
+    display: inline-block;
+    margin-top: 2%;
+    font-family: 'Montserrat';
+  }
+
+  .bold {
+    font-weight: bold;
+    margin-top: 5.5%;
+  }
+
+  .spans:last-child {
+    margin-bottom: 5.2%;
+  }
+
+  #latest-news {
+    width: 100%;
+    text-align: left;
+    margin: 7% 0 0 0;
+    padding: 0 10% 0 10%;
+  }
+
+  #latest-news p {
+    text-align: center;
+    font-family: 'Staatliches';
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10% 0 5% 0;
+  }
+
+  #last-panel {
+    width: 100% !important;
+    background-color: #000 !important;
+    color: white;
+    padding: 5% 5%;
+  }
+
+  .lijevi-div{
+    width: 70%;
+    float: left;
+    text-align: left;
+  }
+
+  #contact{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 0 0 2% 0; 
+  }
+
+  .contact{
+    font-family: 'Staatliches';
+    font-size: 60px;
+  }
+
+  .contact::after {
+    display: block;
+    content: '';
+    height: 5px;
+    width: 25%;
+    background-color: #C25A01;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-bottom: 2%;
+  }
+
+
+.contact-sighter-right{
+  text-transform: initial;
   font-family: 'Montserrat';
+  font-size:16px;
+  line-height: 25px;
 }
 
-#left img {
-  float: left;
-  margin: -12% 0 0 0;
-  padding: 0 0 0 10%;
-  width: auto;
-}
 
-#left span {
-  margin: 0;
-  padding: 0;
-  text-align: left;
-}
-#about-sighter{
-  width: 100%;
-  text-align: left;
-  margin: 5% 0 0 0;
-  padding: 0 10% 0 10%;
-}
-
-#left-sighter{
+.info{
   width: 30%;
   float: left;
+  margin-right: 3%;
+}
+
+.name{
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: medium;
+  margin-bottom: 3%;
+}
+
+.info p{
+  margin-bottom: 10%;
+}
+
+.info i{
   margin-right: 5%;
+  color: #C25A01;
 }
 
-#right-sighter{
-  width: 65%;
-  float: left;
-}
-#about-sighter #title{
-  color: #222222;
-  text-transform: uppercase;
-  font-family: 'Montserrat';
-  font-size:14px;
-}
-#about-sighter h2{
-  margin-top: 5%;
-  margin-bottom: 5%;
-  text-transform: uppercase;
-  font-family: 'Staatliches';
-  font-size: 40px;
-}
+  
 
-#about-sighter h2::after{
-  display: block;
-  content:'';
-  height: 5px;
-  width: 25%;
-  background-color: #C25A01;
-margin-top: 2%;
-  margin-right: auto;
-}
+  #icons2 ul li{
+    display: inline;
+    margin-right: 3%;
 
-#about-sighter span{
-  display: inline-block;
-  margin-top: 2%;
-  font-family: 'Montserrat';
-}
+  }
+  #forma{
+    width: 30%;
+    float: right;
+    text-align: left;
+    padding: 0 5% 0 5%;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: normal;
+  }
 
-#about-sighter #bold{
-  font-weight: bold;
-  margin-top: 5.5%;
-}
+  #forma input {
+    background-color: #000;
+    border-style: none;
+    border: 0.5px solid white;
+    padding: 2% 5%;
+    margin: 4% 0 4% 0;
+    width: 100%;
+  }
 
+  form:last-child {
 
-#about-sighter span:last-child{
-  margin-bottom: 5.2%;
+    padding: 10% 10%;
+    margin-bottom: 5%;
+  }
+
+  #forma button {
+    width: 100%;
+    margin: 2% 0 0 0;
+    padding: 3% 3%;
+    background-color: #151515;
+    border: 5px solid #C25A01;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  #forma button i {
+    float: right;
+    margin: 0 2% 0 0;
+    font-size: 17px;
+  }
+
+  #proba{
+    display: none;
+  }
+  #footer {
+    margin-top:30%;
+    width: 100%;
+    text-align: right;
+    padding: 3% 5% 0 5%;
+  }
+
+  
 }
